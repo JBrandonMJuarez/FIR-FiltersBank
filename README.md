@@ -41,3 +41,20 @@ Some considerations:
          End For
          Return yn
        End
+
+## Results
+Srarting with filter responses
+* Hamming FIR Filter
+![Hamming Window FIR Filter Response](/img/HammingFIR)
+* Hanning FIR Filter
+![Hanning Window FIR Filter Response](/img/HanningFIR)
+* Kaiser FIR Filter
+![Kaiser Window FIR Filter Response](/img/KaiseFIR)
+
+Results of some actual measurements on an oscilloscope
+
+| Ventana | Filtro | Banda de rechazo | Banda de paso |
+| ------- | ------ | ---------------- | ------------- |
+| Hamming | 250 - 500 Hz | Entrada: 60 Hz	| Entrada: 300 Hz |
+| Hanning | 1150 - 1450 Hz | Entrada: 100 Hz | Entrada: 1300 Hz |
+| Kaiser | 3800 - 6800 Hz | Entrada: 3500 Hz | Entrada: 5500 Hz |
