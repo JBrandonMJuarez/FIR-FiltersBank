@@ -45,16 +45,19 @@ Some considerations:
 ## Results
 Srarting with filter responses
 * Hamming FIR Filter
-![Hamming Window FIR Filter Response](/img/HammingFIR)
+<img width="591" height="488" alt="image" src="https://github.com/user-attachments/assets/3df31375-d16b-4297-b515-99d5a466800b" />
+
 * Hanning FIR Filter
-![Hanning Window FIR Filter Response](/img/HanningFIR)
+<img width="591" height="488" alt="image" src="https://github.com/user-attachments/assets/f79ef216-4b2d-4ace-8ca7-9977311e5aea" />
+
 * Kaiser FIR Filter
-![Kaiser Window FIR Filter Response](/img/KaiseFIR)
+<img width="591" height="488" alt="image" src="https://github.com/user-attachments/assets/eef73569-43ed-4ce7-b884-4956202da439" />
+
 
 Results of some actual measurements on an oscilloscope
 
-| Ventana | Filtro | Banda de rechazo | Banda de paso |
+| Window | Filter | Rejetion band | Pass band |
 | ------- | ------ | ---------------- | ------------- |
-| Hamming | 250 - 500 Hz | Entrada: 60 Hz	| Entrada: 300 Hz |
-| Hanning | 1150 - 1450 Hz | Entrada: 100 Hz | Entrada: 1300 Hz |
-| Kaiser | 3800 - 6800 Hz | Entrada: 3500 Hz | Entrada: 5500 Hz |
+| Hamming | 250 - 500 Hz | <img width="355" height="185" alt="image" src="https://github.com/user-attachments/assets/cb832b32-f7f9-415f-8aaa-d4d82cc262d3" /> Input: 60 Hz | <img width="383" height="200" alt="image" src="https://github.com/user-attachments/assets/83f5deb3-75e9-47cf-8f8c-454d81bec74d" /> Input: 300 Hz |
+| Hanning | 1150 - 1450 Hz | <img width="354" height="179" alt="image" src="https://github.com/user-attachments/assets/42168bfc-602c-49a3-97f0-d0d424c8f17d" /> Input: 1000 Hz | <img width="389" height="203" alt="image" src="https://github.com/user-attachments/assets/96b60acd-8745-4e42-bcfc-45668a624f4d" /> Input: 1300 Hz |
+| Kaiser | 3800 - 6800 Hz | <img width="349" height="183" alt="image" src="https://github.com/user-attachments/assets/eb614cf4-978b-4df6-8674-2c8bcf82ab28" /> Input: 3500 Hz | <img width="388" height="202" alt="image" src="https://github.com/user-attachments/assets/32a81dea-4bfb-43a0-abf1-00e7d5779234" /> Input: 5500 Hz |
