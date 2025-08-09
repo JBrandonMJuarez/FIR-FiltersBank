@@ -6,7 +6,7 @@ It is coded in C language in the Code Composer Studio IDE and implemented on the
 To design the FIR filter bank, the block diagram in the following figure is taken into account.
 ![Block Diagram FIR Filter Bank](img/SystemBlockDiagram.png)
 
-The design specifications are following
+The design specifications as follow
 | Filtro |	fc1 |	fc2 |
 | ------ | ---- | --- |
 | 1	| 250 Hz	| 500 Hz |
